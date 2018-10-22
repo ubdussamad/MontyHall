@@ -14,10 +14,10 @@ int main(void) {
   for ( int i = 0; i < 20000000 ; i++ ) {
       int z = play();
       if (z == 1) {
-	wins++;
+	loss++;
       }
       else if (z==0)  {
-	loss++;
+	wins++;
       }
       else {
 	printf("Locha Play returned:%d" , z);
